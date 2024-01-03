@@ -1,0 +1,22 @@
+/* BeerDetailsPage.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set height to fill the viewport */
+  text-align: center;
+}
+
+.beer-details {
+  max-width: 500px; /* Set max-width for better readability */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.beer-details img {
+  display: block; /* Ensure image behaves as a block element */
+  max-width: 150px; /* Set max-width for the image */
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: auto; /* Let height adjust based on image aspect ratio */
+  margin: 0 auto 20px; /* Center the image horizontally and add spacing */
+}

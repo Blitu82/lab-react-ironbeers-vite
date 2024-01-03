@@ -1,0 +1,51 @@
+/* AllBeersPage.css */
+
+.beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.beer-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+}
+
+.beer-link {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
+.beer-link img {
+  width: auto; /* Let the width adjust based on the image's natural size */
+  height: 300px; /* Set the height to maintain aspect ratio */
+  margin-right: 20px; /* Add spacing between image and text */
+}
+
+.beer-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.beer-link h2,
+.beer-link p {
+  margin: 5px 0;
+}
+
+.beer-link h2 {
+  color: black;
+}
+
+.beer-link p.tagline {
+  color: grey;
+}
+
+.beer-link p.contributor {
+  color: black;
+}
